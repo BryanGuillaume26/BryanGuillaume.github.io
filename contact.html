@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="Stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    html { 
+        background-color: rgb(178, 207, 179);
+    }
+    </style>
+<body>
+    <nav>
+        <ul id="Navigation">
+            <li> <a href="index.html" class="items-navigation">Bryan GUILLAUME</a></li>
+            <li> <a href="Projet.html" class="items-navigation">Mes Projets</a></li>
+            <li> <a href="Apropos.html" class="items-navigation">à Propos</a></li>
+            <li> <a href="contact.html" class="items-navigation">Contact</a></li>        
+        </ul>
+    </nav>
+    <div class="contact">
+        <h1 class="titrecontact">Contact</h1>
+    <form class="contactformulaire" action="https://formsubmit.co/bryan.guillaume26@gmail.com" method="POST">
+        <input class="text-field" type="text" name="name" placeholder="Nom" maxlength="36" required="">
+        <div class="prenom">
+            <input class="text-field" type="text" name="prenom" placeholder="Prenom" maxlength="36" required="">
+        </div>
+        <div class="email">
+            <input class="mail-field" type="text" name="email" placeholder="Email" maxlength="72" required="">
+        </div>
+        <textarea name="message" placeholder="Message" class="message-field" cols="30" rows="10" maxlength="888" required=""></textarea>
+        <input type="submit" class="button" value="Envoyer le formulaire">     
+   </form>
+    </div>
+
+   <footer>
+    <ul id="Footer">
+        <li><a href="https://www.linkedin.com/in/bryan-guillaume-aaa153203/" class="items-footer">LinkedIn</a></li>
+        <li><a href="Ressource/Fichier/CV.pdf" class="items-footer">CV</a></li>
+        <li><a href="#" class="items-footer">Bryan.guillaume26@gmail.com</a></li>
+    </ul>
+</footer>
+</body>

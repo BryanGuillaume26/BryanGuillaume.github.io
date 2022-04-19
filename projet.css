@@ -1,0 +1,91 @@
+
+.blocprojet {
+    margin-top: 0px;
+    width: 726px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Mesprojet {
+    padding-top: 10%;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-color: rgb(123, 144, 125);
+}
+
+.logo {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 175px;
+    width: 175px;
+    border: 2px solid black;
+}
+
+.afficheangers {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 450px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+.banniere {
+    height: 170px;
+    width: 850px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 768px){
+    h1,h2 {
+        text-align: left;
+        font-family: Oswald, sans-serif;
+        padding-top: 5%;
+        padding-bottom: 5px;
+        text-decoration: underline;
+        text-decoration-color: rgb(123, 144, 125);
+    }
+
+    .logo {
+        margin-top: 10px;
+        margin-right: 5px;
+        height: 125px;
+        width: 125px;
+        border: 2px solid black;
+    }
+
+    .banniere {
+        height: 80px;
+        width: 275px;
+        margin-top: 10px;
+        margin-right: 10px;
+        border: 2px solid black;
+    }
+
+    p {
+        font-size: 2.5vw;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .blocprojet {
+        overflow: scroll;
+        margin-top: 0px;
+        width: 726px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

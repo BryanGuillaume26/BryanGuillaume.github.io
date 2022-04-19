@@ -1,0 +1,152 @@
+
+body {
+    overflow-y: hidden;
+  }
+
+.AproposBloc {  
+    margin-top: 0px;
+    width: 726px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12%;
+}
+
+.AproposHead {
+    font-size: 25px;
+}
+
+.Apropospresentation {
+    padding-top: 35px;
+}
+
+.Aproposcompetences {
+    padding-top: 35px;
+}
+
+h1,h2 {
+    font-family: Oswald, sans-serif;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(123, 144, 125);
+}
+
+.Apropospresentation p {
+    font-family: Raleway, sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-top: 1px;
+}
+
+.pespace {
+    margin-top: 13px;
+}
+
+.bloccompt {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blocdev {
+    margin-left: 7%;
+    background-color: rgb(123, 144, 125);
+    border: solid black;
+    border-radius: 10px;
+    width: 290px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.blocmontage {
+    background-color: rgb(123, 144, 125);
+    border: solid black;
+    border-radius: 10px;
+    width: 290px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titre {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Oswald, sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.rectangle{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+    }
+
+    to {
+        margin-left: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Apropospresentation p {
+        font-size: 2.7vw;
+        padding-top: 0px;
+    }
+
+    .pespace {
+        margin-top: 8px;
+    }
+
+    .AproposHead {
+        font-size: 3.75vw;
+    }
+    
+    .Apropospresentation {
+        padding-top: 3.5vw;
+    }
+    
+    .Aproposcompetences {
+        padding-top: 3.5vw;
+    }
+
+    .AproposBloc {  
+        margin-top: 0px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 17%;
+    }
+
+    .blocdev {
+        margin-left: 5%;
+        border: solid black;
+        border-radius: 10px;
+        width: 250px;
+        height: 125px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .blocmontage {
+        margin-top: 15px;
+        background-color: rgb(123, 144, 125);
+        border: solid black;
+        border-radius: 10px;
+        width: 250px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
